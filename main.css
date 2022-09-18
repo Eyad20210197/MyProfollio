@@ -210,3 +210,33 @@ width: 100%;
     padding: 0 20px 0 0;
     font-size: 1.5em;
 }
+@media (max-width:1023px){
+    header{
+        padding: 20px 20px;
+    }
+
+    .main{
+        background-color: black;
+    }
+
+    .nav a{
+        padding-left: 4px;
+        font-size: 0.9em;
+    }
+    .title{
+        font-size: 0.9em;
+    }
+    section{
+        padding: 50px 10px;
+    }
+    .main-content h2{
+        font-size: 0.8em;
+    }
+    .main-content h3{
+        font-size: 1.0em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
